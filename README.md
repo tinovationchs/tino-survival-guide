@@ -79,4 +79,4 @@ Then open your browser and go to `http://localhost:8000`.
 
 ---
 
-**Built with ❤️ by Tinovation.** JOIN TINOVATION!!
+**Built with ❤️ by Prakruti.** JOIN TINOVATION!!
