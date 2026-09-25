@@ -4,7 +4,7 @@ Welcome to the **Tino Survival Guide**! This is an open-source, beginner-friendl
 
 The goal of this repository is twofold:
 1. Provide a central hub for advice, tips, and unwritten rules to help freshmen (and everyone else) survive high school.
-2. Teach students how to read code, use Git, and make their very first GitHub contribution!
+2. Teach members how to read code, use Git, and make their very first GitHub contribution!
 
 ---
 
