@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grub Tier List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/tierlist.css">
+</head>
+<body>
+    <header>
+        <h1>Main Street Grub</h1>
+        <p>The Off-Campus Tier List</p>
+        <nav style="margin-top: 1rem;">
+            <a href="index.html" style="color: white; margin-right: 15px;">Home</a>
+            <a href="calculator.html" style="color: white; margin-right: 15px;">Sleep Calculator</a>
+            <a href="lore.html" style="color: white; margin-right: 15px;">Unwritten Rules</a>
+            <a href="tierlist.html" style="color: white; margin-right: 15px; font-weight: bold;">Grub Tier List</a>
+            <a href="schedule.html" style="color: white;">Block Optimizer</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Rank Your Favorite Spots</h2>
+            <p>Drag and drop the food spots into your own personal tier list!</p>
+        </section>
+
+        <div class="tier-board">
+            <!-- Tiers (S, A, B, C, F) -->
+            <div class="tier-row" id="tier-s">
+                <div class="tier-label" style="background-color: #ff7f7f;">S</div>
+                <div class="tier-dropzone" data-tier="S"></div>
+            </div>
+            <div class="tier-row" id="tier-a">
+                <div class="tier-label" style="background-color: #ffbf7f;">A</div>
+                <div class="tier-dropzone" data-tier="A"></div>
+            </div>
+            <div class="tier-row" id="tier-b">
+                <div class="tier-label" style="background-color: #ffff7f;">B</div>
+                <div class="tier-dropzone" data-tier="B"></div>
+            </div>
+            <div class="tier-row" id="tier-c">
+                <div class="tier-label" style="background-color: #7fff7f;">C</div>
+                <div class="tier-dropzone" data-tier="C"></div>
+            </div>
+            <div class="tier-row" id="tier-f">
+                <div class="tier-label" style="background-color: #7f7fff;">F</div>
+                <div class="tier-dropzone" data-tier="F"></div>
+            </div>
+        </div>
+
+        <section class="unranked-section">
+            <h3>Unranked / Default Pool</h3>
+            <div id="unranked-pool" class="tier-dropzone" data-tier="Unranked">
+                <!-- Items injected here -->
+            </div>
+        </section>
+    </main>
+    <script src="js/tierlist.js"></script>
+</body>
+</html>

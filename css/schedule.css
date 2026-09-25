@@ -1,0 +1,64 @@
+.schedule-widget {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.schedule-column {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.block-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s;
+}
+
+.block-row:last-child {
+    border-bottom: none;
+}
+
+.block-row.active-block {
+    background-color: #ffefcc; /* Highlight current period */
+    border-left: 4px solid var(--tino-gold);
+    font-weight: bold;
+}
+
+.tutorial-optimizer {
+    background: var(--tino-black);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    position: sticky;
+    top: 2rem;
+}
+
+.custom-button {
+    background-color: var(--tino-gold);
+    color: var(--tino-black);
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.custom-button:hover {
+    background-color: var(--tino-red);
+    color: var(--tino-white);
+}
+
+@media (max-width: 768px) {
+    .schedule-widget {
+        grid-template-columns: 1fr;
+    }
+}

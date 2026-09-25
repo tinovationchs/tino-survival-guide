@@ -1,0 +1,122 @@
+/* 
+  ========================================================
+  CSS Variables 
+  ========================================================
+  Variables make it easy to reuse colors across our site. 
+  To use them, you write: var(--variable-name)
+  We are using Cupertino High School colors here!
+*/
+:root {
+    --tino-red: #C41E3A;       /* Cardinal Red */
+    --tino-gold: #FFC72C;      /* Gold */
+    --tino-black: #1a1a1a;     /* Dark Charcoal/Black */
+    --tino-white: #ffffff;     /* Pure White */
+    --bg-color: #f9f9fb;       /* Light gray background */
+}
+
+/* 
+  Basic page setup 
+*/
+body {
+    font-family: 'Inter', system-ui, sans-serif; /* Modern, clean font */
+    background-color: var(--bg-color);
+    color: var(--tino-black);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--tino-red);
+    color: var(--tino-white);
+    padding: 2.5rem 1rem;
+    text-align: center;
+    border-bottom: 6px solid var(--tino-gold);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* 
+  ========================================================
+  CSS Grid for Advice Cards
+  ========================================================
+  This creates a responsive grid that automatically creates 
+  new columns if the screen is wide enough!
+*/
+#advice-container {
+    display: grid;
+    /* This rule says: make columns at least 300px wide, and fill the available space */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem; /* Space between the cards */
+    margin-top: 1.5rem;
+}
+
+/* Styling for the individual advice cards created by JavaScript */
+.advice-card {
+    background-color: var(--tino-white);
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Soft shadow */
+    border-top: 5px solid var(--tino-gold);
+    transition: transform 0.2s ease; /* Smooth animation when hovering */
+}
+
+.advice-card:hover {
+    transform: translateY(-5px); /* Move up slightly when the mouse is over it */
+}
+
+.advice-card h3 {
+    margin-top: 0;
+    color: var(--tino-red);
+}
+
+.advice-card .category {
+    display: inline-block;
+    background-color: var(--tino-black);
+    color: var(--tino-white);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    color: #666;
+    margin-top: 3rem;
+}
+
+/* 
+  ========================================================
+  STUDENTS: Add your custom CSS below!
+  ========================================================
+  Want to add a custom button? Uncomment the code below to see how it works!
+  Then, go to index.html and add class="custom-button" to any element!
+*/
+
+/*
+.custom-button {
+    background-color: var(--tino-gold);
+    color: var(--tino-black);
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.custom-button:hover {
+    background-color: var(--tino-red);
+    color: var(--tino-white);
+}
+*/

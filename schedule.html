@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial & Block Optimizer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/schedule.css">
+</head>
+<body>
+    <header>
+        <h1>Block Optimizer</h1>
+        <p>Never get confused by the bell schedule again.</p>
+        <nav style="margin-top: 1rem;">
+            <a href="index.html" style="color: white; margin-right: 15px;">Home</a>
+            <a href="calculator.html" style="color: white; margin-right: 15px;">Sleep Calculator</a>
+            <a href="lore.html" style="color: white; margin-right: 15px;">Unwritten Rules</a>
+            <a href="tierlist.html" style="color: white; margin-right: 15px;">Grub Tier List</a>
+            <a href="schedule.html" style="color: white; font-weight: bold;">Block Optimizer</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Current Status: <span id="current-status-text">Loading...</span></h2>
+            <p id="countdown-text" style="font-size: 1.5rem; font-weight: bold; color: var(--tino-red);"></p>
+        </section>
+
+        <div class="schedule-widget">
+            <div class="schedule-column" id="schedule-blocks">
+                <!-- Blocks injected via JS -->
+            </div>
+            
+            <div class="tutorial-optimizer">
+                <h3>Tutorial Optimizer</h3>
+                <p>Not sure what to do during tutorial today?</p>
+                <button id="randomize-btn" class="custom-button" style="margin-top: 1rem;">Pick for me!</button>
+                <div id="tutorial-result" style="margin-top: 1.5rem; font-weight: bold; font-size: 1.2rem; color: var(--tino-red);"></div>
+            </div>
+        </div>
+    </main>
+    <script src="js/schedule.js"></script>
+</body>
+</html>

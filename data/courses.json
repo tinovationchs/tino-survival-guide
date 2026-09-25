@@ -1,0 +1,17 @@
+[
+  {
+    "className": "AP Calculus BC",
+    "hoursPerWeek": 8,
+    "survivalTip": "Do the homework the night it is assigned, don't wait until the day before the test."
+  },
+  {
+    "className": "Literature and Writing",
+    "hoursPerWeek": 3,
+    "survivalTip": "SparkNotes helps, but actually reading the book makes the essays 10x easier."
+  },
+  {
+    "className": "Varsity Sports (Any)",
+    "hoursPerWeek": 15,
+    "survivalTip": "Time management is crucial. Do your homework on the bus!"
+  }
+]

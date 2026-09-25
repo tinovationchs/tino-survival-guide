@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+      The <head> section is for information about the page. 
+      It doesn't show up on the screen, but it tells the browser how to render the page,
+      what the title is on the tab, and where to find the CSS styles.
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tino Survival Guide</title>
+    
+    <!-- Link to Google Fonts for a clean, modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Link to our stylesheet so the browser knows where to find our CSS rules -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section: Shows up at the very top of the page -->
+    <header>
+        <h1>Tino Survival Guide</h1>
+        <p>By the students, for the students.</p>
+        <nav style="margin-top: 1rem;">
+            <a href="index.html" style="color: white; margin-right: 15px; font-weight: bold;">Home</a>
+            <a href="calculator.html" style="color: white; margin-right: 15px;">Sleep Calculator</a>
+            <a href="lore.html" style="color: white; margin-right: 15px;">Unwritten Rules</a>
+            <a href="tierlist.html" style="color: white; margin-right: 15px;">Grub Tier List</a>
+            <a href="schedule.html" style="color: white;">Block Optimizer</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Area: Where the meat of the page goes -->
+    <main>
+        <section class="intro">
+            <h2>Welcome to Cupertino High School!</h2>
+            <p>Read advice from upperclassmen below to help you survive and thrive.</p>
+        </section>
+
+        <!-- 
+          ========================================================================
+          STUDENTS: If you want to add a new section (like a "Clubs" list or a 
+          "Classes" guide), you can safely paste your new HTML right here,
+          above the advice section below! 
+          ========================================================================
+        -->
+
+        <!-- The Advice Section -->
+        <section class="advice-section">
+            <h2>Student Advice</h2>
+            <!-- 
+              This is the empty container. 
+              Our JavaScript file (script.js) will automatically fill this <div> 
+              with advice cards from our list! 
+            -->
+            <div id="advice-container"></div>
+        </section>
+    </main>
+
+    <!-- Footer Section: Shows up at the very bottom -->
+    <footer>
+        <p>&copy; 2026 Tinovation | Built with ❤️ by Tino Students</p>
+    </footer>
+
+    <!-- 
+      We link our JavaScript file at the very bottom of the <body> 
+      so the HTML loads first before the script tries to change it.
+    -->
+    <script src="script.js"></script>
+</body>
+</html>

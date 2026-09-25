@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Tea Era",
+    "price": "$$",
+    "walkTimeMins": 15,
+    "bestItem": "Roasted Oolong Milk Tea",
+    "tier": "A"
+  },
+  {
+    "name": "Philz Coffee",
+    "price": "$$$",
+    "walkTimeMins": 20,
+    "bestItem": "Mint Mojito",
+    "tier": "S"
+  },
+  {
+    "name": "McDonalds",
+    "price": "$",
+    "walkTimeMins": 5,
+    "bestItem": "Spicy McChicken",
+    "tier": "B"
+  }
+]

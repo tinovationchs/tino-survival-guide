@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will I Sleep? Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/calculator.css">
+</head>
+<body id="calc-body">
+    <header>
+        <h1>Will I Sleep?</h1>
+        <p>Course Load Calculator</p>
+        <nav style="margin-top: 1rem;">
+            <a href="index.html" style="color: white; margin-right: 15px;">Home</a>
+            <a href="calculator.html" style="color: white; margin-right: 15px; font-weight: bold;">Sleep Calculator</a>
+            <a href="lore.html" style="color: white; margin-right: 15px;">Unwritten Rules</a>
+            <a href="tierlist.html" style="color: white; margin-right: 15px;">Grub Tier List</a>
+            <a href="schedule.html" style="color: white;">Block Optimizer</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="calculator-container">
+            <div class="courses-selection">
+                <h2>Select Your Classes & Activities</h2>
+                <div id="course-list">
+                    <!-- Checkboxes will be injected here via JS -->
+                </div>
+            </div>
+            
+            <div class="results-panel">
+                <h2>Your Sleep Score</h2>
+                <div class="score-display">
+                    <span id="hours-sleep">8.0</span>
+                    <span class="unit">hours/night</span>
+                </div>
+                <p id="survival-tip-display">Select classes to see your survival tips.</p>
+            </div>
+        </section>
+    </main>
+    <script src="js/calculator.js"></script>
+</body>
+</html>
