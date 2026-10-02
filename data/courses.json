@@ -13,5 +13,15 @@
     "className": "Varsity Sports (Any)",
     "hoursPerWeek": 15,
     "survivalTip": "Time management is crucial. Do your homework on the bus!"
+  },
+  {
+    "className": "World Language 5AP",
+    "hoursPerWeek": 3,
+    "survivalTip": "Memorize loads of transitional words, it will help connect your thoughts!"
+  },
+  {
+    "className": "Alg 2/Trig",
+    "hoursPerWeek": 5,
+    "survivalTip": "Understand concepts during class rather than trying to at home."
   }
 ]

@@ -19,5 +19,19 @@
     "walkTimeMins": 5,
     "bestItem": "Spicy McChicken",
     "tier": "B"
+  },
+  {
+    "name": "CHICHA San Chen",
+    "price": "$$",
+    "walkTimeMins": 30,
+    "bestItem": "Bubble Milk Tea",
+    "tier": "S"
+  },
+  {
+    "name": "Wingstop",
+    "price": "$$$",
+    "walkTimeMins": 20,
+    "bestItem": "Louisiana Rub wings",
+    "tier": "A"
   }
 ]
