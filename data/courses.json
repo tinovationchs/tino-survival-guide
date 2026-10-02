@@ -23,5 +23,20 @@
     "className": "Alg 2/Trig",
     "hoursPerWeek": 5,
     "survivalTip": "Understand concepts during class rather than trying to at home."
+  },
+  {
+    "className": "Geometry Enriched",
+    "hoursPerWeek": 2.5,
+    "survivalTip": "Don't just memorize the theorums and postulates. Apply them to practice problem so you don't get confused on a test."
+  },
+  {
+    "className": "Biology",
+    "hoursPerWeek": 2,
+    "survivalTip": "Don't wait until the night before a test to study. Bio has a lot of small details, so reviewing a little at a time makes studying less overwhelming."
+  },
+  {
+    "className": "World Language 1",
+    "hoursPerWeek": 1.5,
+    "survivalTip": "Keep a running list of vocabulary and phrases you forget and practice them. The first level of a language is your foundation, so if you don't build a strong foundation, it can make everything you learn later harder to understand."
   }
 ]
